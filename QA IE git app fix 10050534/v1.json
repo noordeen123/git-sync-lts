@@ -248,14 +248,14 @@
                 "backgroundFxQuery": "",
                 "appMode": "light",
                 "theme": {
-                  "name": "QA IE git theme fix 10050534",
-                  "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+                  "name": "QA IE foreign theme fix",
+                  "organizationId": "6ffada60-f996-4d89-8dd4-79e9139bdd0c",
                   "definition": {
                     "brand": {
                       "colors": {
                         "primary": {
-                          "light": "#C2410C",
-                          "dark": "#FB923C"
+                          "light": "#6D28D9",
+                          "dark": "#C4B5FD"
                         },
                         "secondary": {
                           "light": "#7C2D12",
@@ -316,8 +316,8 @@
                     "surface": {
                       "colors": {
                         "appBackground": {
-                          "light": "#FFF7ED",
-                          "dark": "#1C1917"
+                          "light": "#F5F3FF",
+                          "dark": "#1E1B4B"
                         },
                         "surface1": {
                           "light": "#FFFFFF",
@@ -336,7 +336,7 @@
                   },
                   "isDefault": false,
                   "isBasic": false,
-                  "id": "5661779d-37a2-4b2d-9bb4-33ed3cbd1f8b",
+                  "id": "124547df-b7e1-43f6-8b83-dcfebfdcbd02",
                   "createdAt": "2026-10-05T05:34:01.952Z",
                   "updatedAt": "2026-10-05T05:34:01.952Z"
                 }
