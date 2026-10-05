@@ -248,14 +248,14 @@
                 "backgroundFxQuery": "",
                 "appMode": "light",
                 "theme": {
-                  "name": "QA IE git theme baseline 10050515",
-                  "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+                  "name": "QA IE foreign theme baseline",
+                  "organizationId": "c8ea41d5-7f8e-4652-bcfa-99988b229418",
                   "definition": {
                     "brand": {
                       "colors": {
                         "primary": {
-                          "light": "#C2410C",
-                          "dark": "#FB923C"
+                          "light": "#6D28D9",
+                          "dark": "#C4B5FD"
                         },
                         "secondary": {
                           "light": "#7C2D12",
@@ -316,8 +316,8 @@
                     "surface": {
                       "colors": {
                         "appBackground": {
-                          "light": "#FFF7ED",
-                          "dark": "#1C1917"
+                          "light": "#F5F3FF",
+                          "dark": "#1E1B4B"
                         },
                         "surface1": {
                           "light": "#FFFFFF",
@@ -336,7 +336,7 @@
                   },
                   "isDefault": false,
                   "isBasic": false,
-                  "id": "fc273f52-1ff5-4072-9e39-42f4459fb43c",
+                  "id": "da25fae0-e61f-4b3d-9ad6-69c5375e3d22",
                   "createdAt": "2026-10-05T05:15:54.035Z",
                   "updatedAt": "2026-10-05T05:15:54.035Z"
                 }
