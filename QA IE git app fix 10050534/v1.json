@@ -1,0 +1,403 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "efa7138d-796f-4825-834b-5f7bf6100a5d",
+          "type": "front-end",
+          "name": "QA IE git app fix 10050534",
+          "slug": "efa7138d-796f-4825-834b-5f7bf6100a5d",
+          "isPublic": null,
+          "isMaintenanceOn": false,
+          "icon": null,
+          "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+          "currentVersionId": null,
+          "userId": "b354e0d7-ff41-49df-a7cc-5dc3b760781b",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "isInitialisedFromPrompt": false,
+          "appGeneratedFromPrompt": false,
+          "buildCompletionEmailSentAt": null,
+          "appBuilderMode": "visual",
+          "aiGenerationMetadata": null,
+          "createdAt": "2026-10-05T05:34:02.210Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2026-10-05T05:34:02.210Z",
+          "__loaded": true,
+          "editingVersion": {
+            "id": "dd37047c-f167-446f-a08f-95efe8a6e619",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+              "backgroundFxQuery": "",
+              "appMode": "light",
+              "theme": {
+                "name": "QA IE git theme fix 10050534",
+                "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+                "definition": {
+                  "brand": {
+                    "colors": {
+                      "primary": {
+                        "light": "#C2410C",
+                        "dark": "#FB923C"
+                      },
+                      "secondary": {
+                        "light": "#7C2D12",
+                        "dark": "#FED7AA"
+                      },
+                      "tertiary": {
+                        "light": "#1E823B",
+                        "dark": "#318344"
+                      }
+                    }
+                  },
+                  "text": {
+                    "font": "IBM Plex Sans",
+                    "colors": {
+                      "primary": {
+                        "light": "#1B1F24",
+                        "dark": "#CFD3D8"
+                      },
+                      "placeholder": {
+                        "light": "#6A727C",
+                        "dark": "#858C94"
+                      }
+                    }
+                  },
+                  "border": {
+                    "radius": {
+                      "default": 14,
+                      "small": 4,
+                      "large": 20
+                    },
+                    "colors": {
+                      "default": {
+                        "light": "#CCD1D5",
+                        "dark": "#3C434B"
+                      },
+                      "weak": {
+                        "light": "#E4E7EB",
+                        "dark": "#2B3036"
+                      }
+                    }
+                  },
+                  "systemStatus": {
+                    "colors": {
+                      "success": {
+                        "light": "#1E823B",
+                        "dark": "#318344"
+                      },
+                      "error": {
+                        "light": "#D72D39",
+                        "dark": "#D03F43"
+                      },
+                      "warning": {
+                        "light": "#BF4F03",
+                        "dark": "#BA5722"
+                      }
+                    }
+                  },
+                  "surface": {
+                    "colors": {
+                      "appBackground": {
+                        "light": "#FFF7ED",
+                        "dark": "#1C1917"
+                      },
+                      "surface1": {
+                        "light": "#FFFFFF",
+                        "dark": "#1E2226"
+                      },
+                      "surface2": {
+                        "light": "#F6F8FA",
+                        "dark": "#2B3036"
+                      },
+                      "surface3": {
+                        "light": "#E4E7EB",
+                        "dark": "#3C434B"
+                      }
+                    }
+                  }
+                },
+                "isDefault": false,
+                "isBasic": false,
+                "id": "5661779d-37a2-4b2d-9bb4-33ed3cbd1f8b",
+                "createdAt": "2026-10-05T05:34:01.952Z",
+                "updatedAt": "2026-10-05T05:34:01.952Z"
+              }
+            },
+            "pageSettings": null,
+            "showViewerNavigation": true,
+            "homePageId": "939ef383-294c-4ce5-b632-dff72a09c957",
+            "appId": "efa7138d-796f-4825-834b-5f7bf6100a5d",
+            "currentEnvironmentId": "2260eb63-6cc1-4151-a20a-ec5bb07fbf0c",
+            "promotedFrom": null,
+            "parentVersionId": null,
+            "status": "DRAFT",
+            "description": null,
+            "publishedAt": null,
+            "releasedAt": null,
+            "createdAt": "2026-10-05T05:34:02.219Z",
+            "updatedAt": "2026-10-05T05:34:02.316Z"
+          },
+          "components": [
+            {
+              "id": "fe6ba486-4e73-44ac-a2a0-70dcec5ea5db",
+              "name": "btnGit",
+              "type": "Button",
+              "pageId": "939ef383-294c-4ce5-b632-dff72a09c957",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "Git themed button"
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": null,
+              "validation": {},
+              "createdAt": "2026-10-05T05:34:02.287Z",
+              "updatedAt": "2026-10-05T05:34:02.287Z",
+              "layouts": [
+                {
+                  "id": "745dc1a9-abcd-4c18-92d7-0a7d5c61a141",
+                  "type": "desktop",
+                  "top": 40,
+                  "left": 2,
+                  "width": 8,
+                  "height": 40,
+                  "widthPx": null,
+                  "fillWidth": null,
+                  "componentId": "fe6ba486-4e73-44ac-a2a0-70dcec5ea5db",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-10-05T05:34:02.287Z"
+                },
+                {
+                  "id": "5419cf22-ba07-43f8-a2df-4e6b2df3889c",
+                  "type": "mobile",
+                  "top": 40,
+                  "left": 2,
+                  "width": 8,
+                  "height": 40,
+                  "widthPx": null,
+                  "fillWidth": null,
+                  "componentId": "fe6ba486-4e73-44ac-a2a0-70dcec5ea5db",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-10-05T05:34:02.287Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "939ef383-294c-4ce5-b632-dff72a09c957",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "icon": null,
+              "createdAt": "2026-10-05T05:34:02.210Z",
+              "updatedAt": "2026-10-05T05:34:02.247Z",
+              "autoComputeLayout": true,
+              "appVersionId": "dd37047c-f167-446f-a08f-95efe8a6e619",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false,
+              "url": null,
+              "openIn": "new_tab",
+              "type": "default",
+              "pageHeader": {
+                "border": "var(--cc-weak-border)",
+                "height": 60,
+                "showOnMobile": false,
+                "showOnDesktop": false,
+                "backgroundColor": "var(--cc-surface1-surface)"
+              },
+              "pageFooter": {
+                "border": "var(--cc-weak-border)",
+                "height": 60,
+                "showOnMobile": false,
+                "showOnDesktop": false,
+                "backgroundColor": "var(--cc-surface1-surface)"
+              },
+              "appId": ""
+            }
+          ],
+          "events": [],
+          "dataQueries": [],
+          "dataSources": [],
+          "dataQueryFolders": [],
+          "dataQueryFolderMappings": [],
+          "appVersions": [
+            {
+              "id": "dd37047c-f167-446f-a08f-95efe8a6e619",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+                "backgroundFxQuery": "",
+                "appMode": "light",
+                "theme": {
+                  "name": "QA IE git theme fix 10050534",
+                  "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+                  "definition": {
+                    "brand": {
+                      "colors": {
+                        "primary": {
+                          "light": "#C2410C",
+                          "dark": "#FB923C"
+                        },
+                        "secondary": {
+                          "light": "#7C2D12",
+                          "dark": "#FED7AA"
+                        },
+                        "tertiary": {
+                          "light": "#1E823B",
+                          "dark": "#318344"
+                        }
+                      }
+                    },
+                    "text": {
+                      "font": "IBM Plex Sans",
+                      "colors": {
+                        "primary": {
+                          "light": "#1B1F24",
+                          "dark": "#CFD3D8"
+                        },
+                        "placeholder": {
+                          "light": "#6A727C",
+                          "dark": "#858C94"
+                        }
+                      }
+                    },
+                    "border": {
+                      "radius": {
+                        "default": 14,
+                        "small": 4,
+                        "large": 20
+                      },
+                      "colors": {
+                        "default": {
+                          "light": "#CCD1D5",
+                          "dark": "#3C434B"
+                        },
+                        "weak": {
+                          "light": "#E4E7EB",
+                          "dark": "#2B3036"
+                        }
+                      }
+                    },
+                    "systemStatus": {
+                      "colors": {
+                        "success": {
+                          "light": "#1E823B",
+                          "dark": "#318344"
+                        },
+                        "error": {
+                          "light": "#D72D39",
+                          "dark": "#D03F43"
+                        },
+                        "warning": {
+                          "light": "#BF4F03",
+                          "dark": "#BA5722"
+                        }
+                      }
+                    },
+                    "surface": {
+                      "colors": {
+                        "appBackground": {
+                          "light": "#FFF7ED",
+                          "dark": "#1C1917"
+                        },
+                        "surface1": {
+                          "light": "#FFFFFF",
+                          "dark": "#1E2226"
+                        },
+                        "surface2": {
+                          "light": "#F6F8FA",
+                          "dark": "#2B3036"
+                        },
+                        "surface3": {
+                          "light": "#E4E7EB",
+                          "dark": "#3C434B"
+                        }
+                      }
+                    }
+                  },
+                  "isDefault": false,
+                  "isBasic": false,
+                  "id": "5661779d-37a2-4b2d-9bb4-33ed3cbd1f8b",
+                  "createdAt": "2026-10-05T05:34:01.952Z",
+                  "updatedAt": "2026-10-05T05:34:01.952Z"
+                }
+              },
+              "pageSettings": null,
+              "showViewerNavigation": true,
+              "homePageId": "939ef383-294c-4ce5-b632-dff72a09c957",
+              "appId": "efa7138d-796f-4825-834b-5f7bf6100a5d",
+              "currentEnvironmentId": "2260eb63-6cc1-4151-a20a-ec5bb07fbf0c",
+              "promotedFrom": null,
+              "parentVersionId": null,
+              "status": "DRAFT",
+              "description": null,
+              "publishedAt": null,
+              "releasedAt": null,
+              "createdAt": "2026-10-05T05:34:02.219Z",
+              "updatedAt": "2026-10-05T05:34:02.316Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "2260eb63-6cc1-4151-a20a-ec5bb07fbf0c",
+              "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2026-08-29T19:23:21.522Z",
+              "updatedAt": "2026-08-29T19:23:21.522Z"
+            },
+            {
+              "id": "168f385c-e604-47bb-9433-667d3c41d218",
+              "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2026-08-29T19:23:21.522Z",
+              "updatedAt": "2026-08-29T19:23:21.522Z"
+            },
+            {
+              "id": "c4b41145-88a5-4ac1-82fb-12acd8c32123",
+              "organizationId": "58284c7b-15ba-4223-8070-b363fa23f186",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2026-08-29T19:23:21.522Z",
+              "updatedAt": "2026-08-29T19:23:21.522Z"
+            }
+          ],
+          "dataSourceOptions": [],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          },
+          "modules": []
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.20.237-ee-lts"
+}
